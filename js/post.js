@@ -100,17 +100,18 @@ function updatePost(id) {
                     if(data.title !== "") {
                         postTitle.innerHTML = data.title;
                     }                    
-                }
-            })
+                }                
+            })            
             
             postBodies.forEach((postBody, index) => {
                 if(index + 1 === id) {
                     if(data.body !== "" ) {
                         postBody.innerHTML = data.body;
                     }                   
-                }
-            })
-        });
+                }                
+            })    
+        
+    });
 }
 
 updatePost(id);
@@ -156,7 +157,7 @@ function deletePost(id) {
             `
         });
     postHolder.innerHTML = postBox;            
-        })
+    })
 }
 
 deletePost(id);
