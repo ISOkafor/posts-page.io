@@ -21,7 +21,7 @@ function getPosts() {
                 <p class="post-body">${post.body}</p>
                 <div class="d-flex justify-content-between flex-wrap">
                     <button class="btn btn-primary" onclick="singlePost(${post.id})">View</button>
-                    <button class="btn btn-secondary" onclick="updatePost(${post.id})">Update</button>
+                    <button class="btn btn-info" onclick="updatePost(${post.id})">Update</button>
                     <button class="btn btn-danger" onclick="deletePost(${post.id})">Delete</button>
                 </div>
             </div>
@@ -64,7 +64,7 @@ function createPost(e) {
                 <p class="post-body">${post.body}</p>
                 <div class="d-flex justify-content-between flex-wrap">
                     <button class="btn btn-primary" onclick="singlePost(${post.id})">View</button>
-                    <button class="btn btn-secondary" onclick="updatePost(${post.id})">Update</button>
+                    <button class="btn btn-info" onclick="updatePost(${post.id})">Update</button>
                     <button class="btn btn-danger" onclick="deletePost(${post.id})">Delete</button>
                 </div>
             </div>
@@ -147,7 +147,7 @@ function deletePost(id) {
                             <p class="post-body">${post.body}</p>
                             <div class="d-flex justify-content-between flex-wrap">
                                 <button class="btn btn-primary" onclick="singlePost(${post.id})">View</button>
-                                <button class="btn btn-secondary" onclick="updatePost(${post.id})">Update</button>
+                                <button class="btn btn-info" onclick="updatePost(${post.id})">Update</button>
                                 <button class="btn btn-danger" onclick="deletePost(${post.id})">Delete</button>
                             </div>
                         </div>
