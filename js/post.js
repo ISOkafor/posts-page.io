@@ -14,7 +14,7 @@ function getPosts() {
     postContainer.forEach(post => {
         postBox += `
         <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">
+        <div class="card h-100 no-border">
             <div class="card-body">
                 <p>${post.id}</p>
                 <h6 class="post-title">${post.title}</h6>
@@ -57,7 +57,7 @@ function createPost(e) {
     postContainer.forEach(post => {
         postBox += `
         <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">
+        <div class="card h-100 no-border">
             <div class="card-body">
                 <p>${post.id}</p>
                 <h6 class="post-title">${post.title}</h6>
@@ -140,7 +140,7 @@ function deletePost(id) {
             postContainer.forEach(post => {
             postBox += `
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100">
+                    <div class="card h-100 no-border">
                         <div class="card-body">
                             <p>${post.id}</p>
                             <h6 class="post-title">${post.title}</h6>
