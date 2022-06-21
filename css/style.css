@@ -6,5 +6,28 @@
 
 .no-border {
     border: none!important;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(129, 167, 190, 0.2) 0px 8px 24px;      
 }
+
+main {
+    background-color: rgba(154, 164, 164, 0.775);
+}
+
+#header h1, #header p {
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  
